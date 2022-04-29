@@ -23,8 +23,6 @@ public class PainMod {
     public static final String MOD_ID = "pain_mod";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
-
-    // Add a comment
     public PainMod() {
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
